@@ -1,0 +1,52 @@
+.content {
+	 /* display: table; */
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    margin: auto;
+    background: #f2f2f2;
+    /* text-align: center; */
+    border-top: 0;
+    border: none;
+    border-radius: 10px;
+    max-height: 300px;
+    display: inline-block;
+    overflow-y: auto;
+    flex: auto;
+    margin: auto;
+    position: absolute;
+    z-index: +3;
+    padding-top: 2em;
+    display: none;
+}
+
+.searchelm {
+	position: absolute;
+	z-index: +5;
+	margin-left: 0;
+}
+
+#headbar #ul1 .content #ul2 li {
+	display: block;
+	transition: 0.4s;
+	background: #c1c4c721;
+	cursor: pointer;
+}
+
+.boxlm {
+	display: block;
+	clear: both;
+	width: 80px;
+	height: 100px;
+	border: 1px solid #222;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+
+.user_an {
+	position: absolute;
+	margin-top: 2em;
+	margin-left: -5em;
+}

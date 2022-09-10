@@ -1,0 +1,93 @@
+#headbar {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#headbar .headlogo {
+   position: absolute;
+   width: 85px;
+   height: 70px;
+   /*border: 1px solid transparent;*/
+   display: inline-block;
+   background-image: url("../atlas/icon/burgeranime.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+  /* margin-left: 10%;*/
+  transform: translateX(100px);
+}
+
+#headbar ul {
+   margin: auto;
+}
+
+#headbar #ul1 li {
+   display: inline-block;
+   margin-top: 2em;
+   transition: 0.2s;
+}
+
+#headbar .menuLi {
+   padding-left: 3em;
+   cursor: pointer;
+}
+
+#headbar .menuLi1 {
+   padding-left: 5em;
+   cursor: pointer;
+}
+
+#centerelem {
+   min-width: 1080px;
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+   margin-top: 1.5em;
+}
+
+/* */
+.searchelm {
+   margin-left: 2em;
+   border-radius: 10px;
+   padding-left: 50px;
+   border: 1px solid #999;
+   width: 350px;
+   height: 35px;
+   background: linear-gradient(white,whitesmoke);
+   outline: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background : url('../atlas/icon/search.png') no-repeat scroll 1em;
+   background-size: 5%;
+   background-color: whitesmoke;
+   
+}
+/* User Photo */
+#loginUser {
+   position: absolute;
+   display: inline-block;
+   margin-left: 1em;
+}
+.boxUserPhoto {
+   position: absolute;
+   border: 1px solid #999;
+   width: 50px;
+   height: 50px;
+}
+.boxUserPhoto {
+   position: absolute;
+   display: inline-block;
+}
+.demoAboutNewUser {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: orange;
+   text-decoration: underline;
+   cursor: help;
+   animation: demoword 10s infinite linear;
+}
+
+@keyframes demoword {
+   0%{color: orange;}
+   20%{color: crimson;}
+   40%{color: red;}
+   60%{color: deeppink;}
+   80%{color: brown;}
+   100%{color: orange;}
+}

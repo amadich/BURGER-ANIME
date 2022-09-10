@@ -1,0 +1,43 @@
+.selecteps {
+   width: 350px;
+   height: 200px;
+   border: 1px solid transparent;
+   border-radius: 20px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+   cursor: pointer;
+   margin: 1em;
+   display: inline-block;
+}
+
+.setepshere {
+   position: relative;
+   width: 300px;
+   margin: auto;
+   border-top: 1px solid #222;
+   margin-top: 50%;
+   text-align: center;
+   font-family: cursive;
+   font-weight: 700;
+   color: aliceblue;
+   background-color: #222;
+   border-radius: 10px;
+   z-index: +1;
+   text-shadow: 0 0 10px whitesmoke;
+}
+
+.selecthereanime {
+   width: 349px;
+   height: 199px;
+   border-radius: 20px;
+}
+
+.selectanime {
+   width: 100%;
+   border: none;
+}
+
+#titlesetBlock1 {
+   text-align: center;
+}

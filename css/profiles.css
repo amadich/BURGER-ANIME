@@ -1,0 +1,73 @@
+body {
+   background-color: rgb(237, 237, 248);
+}
+
+form {
+   border: 1px solid #222;
+   text-align: center;
+   width: 400px;
+   height: 400px;
+   display: table;
+   margin: auto;
+   background-color: whitesmoke;
+   margin-top: 1em;
+}
+
+form h1 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+form .myimage {
+   border: 1px solid #222;
+   border-radius: 50%;
+   width: 400px;
+   height: 400px;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+form input {
+   margin: 1em;
+   width: 150px;
+   height: 30px;
+}
+
+form #filecss {
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   /*border: 1px solid #222;*/
+   background: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 700;
+   transition: 0.4s;
+   cursor: pointer;
+}
+form #filecss:hover {width: 250px;}
+
+form #sub_css {
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border: 1px solid transparent;
+   background: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 700;
+   cursor: pointer;
+   transition: 0.4s;
+   background-color: rgba(50, 205, 50, 0.26);
+}
+
+
+form #sub_css1 {
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border: 1px solid transparent;
+   background: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 700;
+   cursor: pointer;
+   transition: 0.4s;
+   background-color: rgba(205, 50, 50, 0.26);
+}
+

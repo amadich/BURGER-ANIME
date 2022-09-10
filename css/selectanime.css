@@ -1,0 +1,147 @@
+.selectanime {
+   filter: drop-shadow(0 0 10px rgb(175, 129, 43));
+   border: 1px solid transparent;
+   border-radius: 5%;
+   width: 80%;
+   height: 100%;
+   margin: auto;
+   margin-top: 2em;
+   background: linear-gradient(rgb(219, 174, 90),rgb(189 93 77));
+   /*background: transparent;*/
+   
+}
+
+.blocktitleanime {
+   display: inline-block;
+   width: 150px;
+   height: 20px;
+   background: linear-gradient(rgb(188, 231, 163),rgb(87, 221, 109));
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 10px;
+   text-align: center;
+   margin: 5%;
+   font-weight: 700;
+   padding: 0.5em;
+   display: none;
+}
+/* titlesetBlock  */
+#titlesetBlock1 {
+   /*border: 1px solid #222;*/
+   border-radius: 10px;
+}
+
+.list1 {margin: auto; text-align: center;}
+
+.a1 {
+   position: relative;
+   display: inline-block;
+   border: 1px solid #222;
+   width: 200px;
+   height: 250px;
+   
+
+}
+
+.banerAboutlist {
+   position: relative;
+   display: inline-block;
+   border-top: 1px solid #222;
+   width: 200px;
+   height: 20px;
+   margin-top: 115%;
+   background-color: #222;
+   color: aliceblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 700;
+   font-size: 10px;
+   z-index: +1;
+}
+
+/* imgid */
+
+#imgid001 {
+   background: url("../atlas/uploads/2022/Yowai-5000-nen-no-Soushoku-Dragon-Iwarenaki-Jaryuu-Nintei-323x470.jpg");
+     
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+#imgid002 {
+   background: url("../atlas/uploads/2022/Bai-Yao-Pu-3rd-Season-323x470.jpg");
+     
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+#imgid003 {
+   background: url("../atlas/uploads/2022/Blue-Thermal-scaled-323x470.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+#imgid004 {
+   background: url("../atlas/uploads/2022/Youkoso-Jitsuryoku-Shijou-Shugi-no-Kyoushitsu-e-2nd-Season-323x470.png");
+     
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+
+
+
+#imgid005 {
+   background: url("../atlas/uploads/2022/Summertime-Render-scaled-323x470.jpg");
+     
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+#imgid006 {
+   background: url("../atlas/uploads/2022/Kanojo-Okarishimasu-2nd-Season-scaled-323x470.jpg");
+     
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+#imgid007 {
+   background: url("../atlas/uploads/2022/Kinsou-no-Vermeil-Gakeppuchi-Majutsushi-wa-Saikyou-no-Yakusai-to-Mahou-Sekai-wo-Tsukisusumu-323x470.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+#imgid008 {
+   background: url("../atlas/uploads/2022/Isekai-Meikyuu-de-Harem-wo-323x470.jpg");
+     
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+
+#imgid00 {
+    background: url("../atlas/uploads/2022/Isekai-Meikyuu-de-Harem-wo-323x470.jpg");
+     
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+
+.selecthereanime{
+   position: absolute;
+   border: 1px solid transparent;
+   width: 200px;
+   height: 250px;
+   transition: 0.4s;
+}
+.selecthereanime:hover {
+   background-color: #222;
+   filter: opacity(0.5);
+}

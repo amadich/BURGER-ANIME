@@ -1,0 +1,36 @@
+body {
+   background-image: url(../atlas/images/asideBanner_slider/329855.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-color: #efb4ae;
+   user-select: none;
+}
+
+#element {
+   display: flexbox;
+   margin: auto;
+   border: 1px solid transparent;
+   width: 900px;
+   height: 600px;
+   filter: drop-shadow(0 0 10px gold);
+}
+
+.form-select {
+   background-color: bisque;
+}
+
+video {
+   border-radius: 1em;
+}
+
+a {
+   display: inline-block;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: aliceblue;
+   font-weight: 700;
+   text-decoration: none;
+   margin: 5em;
+}
+
+

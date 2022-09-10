@@ -1,0 +1,214 @@
+aside {
+   width: 80%;
+   height: 100%;
+   /*border: 1px solid #222;*/
+   margin: auto;
+}
+
+#wlcTitle {
+   margin: 10%;
+}
+
+#firstADD {
+   display: inline;
+   font-family: cursive;
+   font-weight: 700;
+}
+
+#secoundADD {
+   display: inline;
+   font-family: cursive;
+   font-weight: 700;
+   font-size: 35px;
+}
+
+#therideADD {
+   display: inline;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#discriptionTitle {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 13px;
+}
+
+.btn_a {
+   border: none;
+   outline: none;
+   width: 120px;
+   height: 30px;
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   background-color: purple;
+   color: aliceblue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   transition: 0.4s;
+}
+.btn_a:hover {width: 150px;}
+
+
+.btn_b {
+   border: 1px solid #999;
+   outline: none;
+   margin-left: 2em;
+   width: 120px;
+   height: 30px;
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   background-color: transparent;
+   color: #222;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   transition: 0.4s;
+}
+.btn_b:hover {
+   width: 150px;
+   background-color: rgb(60, 17, 129);
+   color: aliceblue;
+}
+
+/* Title Head Logo */
+#titleheadLogo {
+   border: 400px;
+   width: 400px;
+   height: 400px;
+   border-radius: 50px;
+   /*border: 1px solid #222;*/
+   float: right;
+   /*margin: 5%;*/
+   background-image: url("../atlas/images/asideLogov2.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: drop-shadow(0 0 30px rgb(252, 183, 229));
+}
+
+/* Title Selling */
+
+#titleselling {
+   text-align: center;
+}
+#titleselling #settitlesell {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+   /*text-shadow: 0 0 50px darkcyan;*/
+   color: darkcyan;
+}
+
+/* Containers Boxs */
+#boxs {
+   display: table;
+   margin: auto;
+   margin-top: 5em;
+}
+.container_box {
+  
+   display: inline-block;
+   width: 200px;
+   height: 250px;
+   border: 1px solid transparent;
+   padding-left: 1em;
+}
+
+.cader {
+   width: 200px;
+   height: 250px;
+   border: 1px solid #999;
+   border-radius: 50px;
+}
+
+.atlas_cader {
+   border-radius: 50px;
+   margin: auto;
+   width: 100px;
+   height: 100px;
+   border: 1px solid #999;
+   margin-top: -25%;
+   background-color: rgb(50, 146, 101);
+}
+
+/* fTitle */
+#fTitle1 {
+   background-image: url("../atlas/images/asideBanner_title/Dconanv2.png");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#fTitle2 {
+   background-image: url("../atlas/images/asideBanner_title/demonslayer.png");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#fTitle3 {
+   background-image: url("../atlas/images/asideBanner_title/Sattackoftitanv1.png");
+   background-position: center -50px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#fTitle4 {
+   background-image: url("../atlas/images/asideBanner_title/jujutuKasins1v2.png");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.labelDiscription {
+   position: absolute;
+   display: inline;
+   padding: 1em;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.DiscriptionAboutBox {
+   position: absolute;
+   padding: 0.1em;
+   display: inline-block;
+   width: 150px;
+   font-size: 10px;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+
+.btn_watchanime {
+   margin-top: 5em;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border: none;
+   width: 150px;
+   height: 30px;
+   background: linear-gradient(45deg,orange,orange,white);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   transition: 0.4s;
+   filter: drop-shadow(0 0 50px orange);
+}
+.btn_watchanime:hover {
+   border-radius: 10px;
+   filter: drop-shadow(0 0 50px lime);
+}
+
+/* v - aboutBox*/ 
+
+.aboutBox {
+  
+   position: absolute;
+   display: none;
+   width: 300px;
+   height: 150px;
+   border: 1px solid transparent;
+   background-color: rgba(34, 34, 34, 0.116);
+   border-radius: 10px;
+   z-index: +10;
+}
+
+.DiscriptionAboutBox1 {
+   font-size: 15px;
+}
+
+
+
+
