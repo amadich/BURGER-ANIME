@@ -1,0 +1,32 @@
+#box1 {
+    margin: auto;
+    display: block;
+    
+    /*border: none;*/
+    width: 70%;
+    height: 25em;
+    margin-top: 5em;
+    border-radius: 20px;
+    
+}
+.ph_blog1 {
+    border: 2px solid orangered;
+    box-shadow:  0 0 50px orangered;
+    background: url(../img/box_body/1079546.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 12.5em;
+    animation: rgb_blogc 1s linear infinite;
+}
+@keyframes rgb_blogc {
+    0%{box-shadow:  0 0 50px orangered;}
+    50%{box-shadow:  0 0 50px red;}
+    100%{box-shadow:  0 0 50px orangered;}
+}
+
+.txt_blog1 {
+    margin-top: 3em;
+    font-family: monospace;
+    color: aliceblue;
+}
+#title_ph{color: yellow; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 700;}

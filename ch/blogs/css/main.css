@@ -1,0 +1,62 @@
+body {
+    background-color: #af4a4a;
+}
+#ul1 {
+    height: 20vh;
+    background-color: #f0d0b4;
+}
+.menubar ul {
+    background-color: #b64e4e;
+}
+aside {
+
+    
+    /*background-color: /*#291d46*//*#286b7a; #1d644a;*/
+    
+}
+#banner {
+   /* border: 1px solid transparent;*/
+   
+    height: 350px;
+    background: url(../img/1145098.jpg) no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+}
+
+.about_aside {
+    border: 1px solid transparent;
+    background-color: /*#1d644a;*/ orangered;
+}
+
+.sidebar{
+    float: right;
+    width: 35%;
+    border-left: 2px solid purple;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    /*background: linear-gradient(#486a48,#527e52);*/
+    background-color: burlywood;
+}
+
+.sidebody {
+    position: absolute;
+/*    float: left;*/
+    width: 64%;
+    border: 2px solid transparent;
+}
+
+/* fix */
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f0d0b4;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b64e4e;
+  border-radius: 50px;
+ }
+
