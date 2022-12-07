@@ -164,10 +164,12 @@
 
                            // Console
                             if ($_SESSION["id"] == "@12345678") {
-                             echo '<option>Console Admin</option>';
-                             echo '<option>Uploads Anime</option>';
-                             echo '<option>Create Anime Description</option>';
-                             echo '<option>Publics Anime</option>';
+                             echo '<option>Console Admin 👑️</option>';
+                             echo '<option>Uploads Anime 🚀️</option>';
+                             echo '<option>Create Anime Description ☕️</option>';
+                             echo '<option>Publics Anime 🌍️</option>';
+			     echo '<option>Mail Box ✉️</option>';
+                             echo '<option>🛍️ Keys [SHOPS] 🛍️</option>';
                           }
                          //
                          
