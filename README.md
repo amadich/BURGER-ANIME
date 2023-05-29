@@ -7,5 +7,4 @@ I Have programmed an entire website for anime that has high features Like the us
 ![image](https://user-images.githubusercontent.com/74735976/189478206-71552c08-c314-4126-9996-ed8e403aadcf.png)
 ![image](https://user-images.githubusercontent.com/74735976/189478211-c63224cb-9f6e-4d4a-9665-84c0c6c1a0b3.png)
 #
-![image](https://github.com/amadich/BURGER-ANIME/assets/74735976/f9ceccf0-fc48-469a-9658-12fea3d9a07e)
-#
+
